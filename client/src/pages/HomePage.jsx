@@ -298,6 +298,7 @@ const handleDownloadExcel = async () => {
 {/*////////-----------------------------------------ADDING TRANSACCTION FORM--------------------------------------------///////////*/}
 
           {/* based on the state given above , the modal will be opened or closed*/}
+          //test
           <Modal title= {editTable ? "Edit Transaction" : "Add Transaction"}
                   open = {showModal}
                   onCancel = {() => setShowModal(false)}
